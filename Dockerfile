@@ -24,7 +24,7 @@ RUN go run make.go -v
 
 
 
-FROM gcr.io/distroless/base
+FROM gcr.io/distroless/static-debian12:debug-nonroot
 
 ENV HOME /home/keepy
 ENV PATH /home/keepy/bin:$PATH
