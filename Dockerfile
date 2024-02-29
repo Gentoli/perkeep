@@ -7,7 +7,7 @@
 # misc/docker/heiftojpeg's Dockerfile entirely. Not decided best way.
 # TODO: likewise, djpeg binary? maybe. https://perkeep.org/issue/1142
 
-FROM golang:1.18 AS pkbuild
+FROM golang:1.21 AS pkbuild
 
 MAINTAINER Perkeep Authors <perkeep@googlegroups.com>
 
